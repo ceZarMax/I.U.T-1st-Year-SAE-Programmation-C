@@ -1,0 +1,7 @@
+- Faire fonctionner la barre de recherche via php :
+	Chercher un film (page html du film : note, sortie, genre, de qui ?, synopisis
+et avec les séances)
+- Mettre les films sur les pages articles
+- Faire la page compte php utilisateur
+- Finir le html/css du site
+
