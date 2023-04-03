@@ -51,5 +51,5 @@ C'est une suite de challenges de cybersécurité à enchainer pour récupérer d
 <br/><br/>![](https://imgur.com/p4OLOh7.png)
 
 <br/><br/>
-*⚠️Ceci est à des fins éducatives seulement. Ce n'est en aucun cas une incitation à reproduire ce que j'ai fais sur de réels entreprises non consentantes. J'utilise cela pour apprendre le fonctionnent des blockchains.*
+*⚠️Ceci est à des fins éducatives seulement. Ce n'est en aucun cas une incitation à reproduire ce que j'ai fais sur de réels entreprises non consentantes. Ce sont des projets réalisés sur des outils de tests.*
 
