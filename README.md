@@ -1,31 +1,55 @@
 <p align="center">
   <a href="" rel="noopener">
- <img src="https://imgur.com/EIKkska.png" alt="Project logo"></a>
+ <img src="https://imgur.com/pR6B1na.png" alt="Project logo"></a>
 </p>
 
 <div align="center">
-
-<p>Je suis actuellement étudiant en première année de B.U.T en Réseaux & Télécommunications. 
-
-Ce dépôt contient tous les projets que j'ai réalisés pendant cette année, qu'ils soient terminés ou non.<p/>
 
 </div>
 
 ---
 
 
+SAE Introduction à la cybersécurité qui sera sur la **Réalisation d'un CTF débutant orienté sur le réseau et sur l'utilisation de Python et Scapy**. </br>
 
-# Projets Terminés
-- Projet 1 : Réaliser un premier CTF débutant orienté sur le réseau et les cours que nous avons pu avoir pendant ce premier semestre de formation avec l’utilisation de Python et Scapy...
-- Projet 3 : La SAÉ proposée consiste à écrire un programme en langage C permettant de générer des statistiques sur les connexions d'un serveur web. 
-Le programme aura trois types d'interfaces : par défaut, une interface pour le web et, en fonction des options d'appel, une interface graphique et une interface texte. 
+## ℹ️ Mise en situation 
 
-# Projets non terminés
-- Projet 2 : Créer un site web dynamique utilisant les langages HTML, CSS, PHP et une base de données MySQL. <br/>
+*Salut jeune Padawan, les Sith préparent une attaque contre une planète localisée dans la 
+bordure médiane. Heureusement le maître Jedi Guillemin a intercepté la communication 
+chiffrée envoyée par Dark Plageuis à Dark Sidious qui indique la planète qui sera détruite et la 
+date de l’attaque. Il est parti en mission sur Tatouine et te confie la mission de décoder ce 
+message. Fais vite énormément de vies en dépendent ! La communication a été enregistrée 
+dans un fichier nommé McDiarmid.pcapng*
 
-Par manque de temps, je n'ai pas pu terminer en entier la partie PHP et ainsi créer des cookies permettant de maintenir une session PHP lorsque l'utilisateur navigue sur mon site web. Il pourra cependant créer un compte qui s'ajoutera automatiquement à la BDD SQL en vérifiant par ID, nom, etc s'il existe déja.
-- Projet 5 : 
+## 🖥️ <span style="color:red">Qu'est-ce qu'un CTF ?</span> 
+<div class="alert alert-block alert-info bilan">
+CTF signifie "Capture The Flag" .</br>
+C'est une suite de challenges de cybersécurité à enchainer pour récupérer des informations que l'on appelle le "drapeau".</br></br>
+</div>
+<img src="https://www.social-engineer.org/wp-content/uploads/2014/01/SECTF-WebGFX-1024x455.jpg" align=center style="width: 350px;"> 
 
-N'hésitez pas à explorer mes projets et à me contacter si vous avez des questions ou des commentaires.
+***DEF CON***, *la plus grande conférence de hackers*
 
+## 📸 Screenshots
+
+**Aperçu du Chapitre 1 :** Analyse du protocole de transfert de fichier.<br/>
+<br/>![](https://imgur.com/hpYfulU.png)
+
+**Aperçu du Chapitre 2 :** Installation et configuration de FileZilla.
+<br/><br/>![](https://imgur.com/KUihIML.jpg)
+
+**Aperçu du Chapitre 3 :** Récupération automatique du login et du mot de passe.
+<br/><br/>![](https://imgur.com/5LmSe0P.jpg)
+
+**Aperçu du Chapitre 4 :** Récupération du fichier transmis à partir du numéro de port TCP et décodage du message chiffrée.
+<br/><br/>![](https://imgur.com/BwSXJL1.png)
+
+**Aperçu du Chapitre 5 :** Récupération automatique du numéro de port TCP négocié pour le transfert et du fichier.
+<br/><br/>![](https://imgur.com/R5cFmHh.png)
+
+**Aperçu du Chapitre 6 :** Attaque MITM (Man In The Middle Attack).
+<br/><br/>![](https://imgur.com/p4OLOh7.png)
+
+<br/><br/>
+*⚠️Ceci est à des fins éducatives seulement. Ce n'est en aucun cas une incitation à reproduire ce que j'ai fais sur de réels entreprises non consentantes. J'utilise cela pour apprendre le fonctionnent des blockchains.*
 
