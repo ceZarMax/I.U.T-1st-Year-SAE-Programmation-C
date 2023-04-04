@@ -1,0 +1,120 @@
+hostname Router
+!
+boot-start-marker
+boot-end-marker
+!
+! card type command needed for slot/vwic-slot 0/0
+!
+no aaa new-model
+!
+memory-size iomem 15
+!
+dot11 syslog
+ip source-route
+!
+!
+ip cef
+!
+!
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+voice-card 0
+!
+!
+!
+!
+!
+license udi pid CISCO2811 sn FCZ111770U0
+!
+redundancy
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ no ip address
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/0.7
+ encapsulation dot1Q 7
+ ip address 192.168.7.254 255.255.255.0
+ ip nat inside
+!
+interface FastEthernet0/0.17
+ encapsulation dot1Q 17
+ ip address 192.168.17.254 255.255.255.0
+ ip nat inside
+!
+interface FastEthernet0/1
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+ ip nat outside
+!
+interface FastEthernet0/2/0
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/2/1
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+ip route 0.0.0.0 0.0.0.0 172.16.0.254
+!
+ip forward-protocol nd
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+gatekeeper
+ shutdown
+!
+!
+line con 0
+line aux 0
+line vty 0 4
+ login
+ transport input all
+!
+scheduler allocate 20000 1000
+end
