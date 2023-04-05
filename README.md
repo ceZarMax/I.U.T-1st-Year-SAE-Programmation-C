@@ -14,7 +14,7 @@ Bienvenue dans ce répertoire ! Vous y découvrirez l'ensemble des projets que j
 
 ## 📁 Contenu
 Nom du projet 1 : Introduction à la CyberSécurité </br>
-Nom du projet 2 : **SOON** </br>
+Nom du projet 2 : Initiation Réseaux </br>
 Nom du projet 3 : **SOON** </br>
 Nom du projet 4 : **SOON** </br>
 **🏗️ SOON 🏗️**
